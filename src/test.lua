@@ -1,20 +1,21 @@
 
 function testMockScreen()
+
+--[[
     return "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG\n"..
             "the quick brown fox jumps over the lazy dog"
---[[
-	return
-	    "                       |###  ... ...|The plain of desolation\n"..
-		"      casting          |          ..|                       \n"..
-		"                       |        X  .|-- casting           --\n"..
-		"     FIREBĂLL-I        | ,,    x    |-- fireball          --\n"..
-		"                       |    ,  x    |                       \n"..
-		" 'Utterly is my most   |      @   ..|S: stance   M: magic   \n"..
-		"  favourite way of     |  ~~       .|E: equipm   I: item    \n"..
-		"  destroying'          | ~~~        |                       \n"..
-		"               Chandra |~~~      ...|- Stealth -            \n"..
-		"                       |~~      ....|                       \n"..
-		"                       |~~      ....|Meakl ------ Epl. quest\n"..
-		"                       |~        ...|Hp ♥♥♥        Obj 04/12"
 --]]
+	return
+	    " 'To find a cure'      |###  ... ...| The plain of desolation \n"..
+		"-----------------------|          ..|                         \n"..
+		" + Raegant found [2/6] |        X  .| -- casting           -- \n"..
+		" + Darkhide troll      | ,,    x    | -- fireball          -- \n"..
+		"   slain [1/4]         |    ,  x    |                         \n"..
+		"                       |      @   ..| S: stance   M: magic    \n"..
+		" ...                   |  ~~       .| E: equipm   I: item     \n"..
+		"                       | ~~~        |                         \n"..
+		"-----------------------|~~~      ...| - Stealth -             \n"..
+		" Quest ratio     [2/3] |~~      ....|                         \n"..
+		"                       |~~      ....| Meakl ----------------- \n"..
+		"                       |~        ...| Hp ♥♥♥                  ";
 end
