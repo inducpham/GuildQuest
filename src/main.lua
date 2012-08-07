@@ -10,7 +10,7 @@ function love.load( )
     screen = love.screen.getScreen();
 
     --bắt đầu load font
-    render.initWithFont("FSEX300-L.ttf", 16)
+    render.initWithFont("res/font/FSEX300-L.ttf", 16)
 
 	--chỉnh độ lớn màn hình là 80 x 24 ký tự
     screen:setMode( render.calculateSize(80, 24) );
